@@ -1,6 +1,6 @@
 {
   "name": "@cocopina/logs-ui",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Logs GUI utility for displaying logs in a pretty format",
   "main": "logs.js",
   "bin": {
@@ -14,11 +14,11 @@
   },
   "author": "Sahar Brodbeker",
   "license": "ISC",
-	"homepage": "git@github.com:sahariko/logs-ui.git",
-	"repository": {
-		"type": "git",
-		"url": "git@github.com:sahariko/logs-ui.git"
-	},
+  "homepage": "git@github.com:sahariko/logs-ui.git",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sahariko/logs-ui.git"
+  },
   "dependencies": {
     "body-parser": "^1.18.2",
     "colors": "^1.1.2",
