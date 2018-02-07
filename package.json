@@ -1,0 +1,40 @@
+{
+  "name": "@cocopina/logs-ui",
+  "version": "1.0.0",
+  "description": "Logs GUI utility for displaying logs in a pretty format",
+  "main": "logs.js",
+  "bin": {
+    "logs-ui": "logs.js"
+  },
+  "preferGlobal": false,
+  "scripts": {
+    "sass": "npx node-sass src/style.scss -o dist --output-style compressed",
+    "webpack": "NODE_ENV=production webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sahar Brodbeker",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "colors": "^1.1.2",
+    "express": "^4.16.2",
+    "jquery": "^3.3.1",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.17.0",
+    "eslint-config-savey": "^1.0.1",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-html": "^4.0.2",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "uglifyjs-webpack-plugin": "^1.1.8",
+    "webpack": "^3.10.0"
+  }
+}

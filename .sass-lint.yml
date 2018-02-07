@@ -1,0 +1,131 @@
+files:
+  include: '**/*.vue'
+rules:
+  # Extends
+  extends-before-mixins: 1
+  extends-before-declarations: 1
+  placeholder-in-extend: 0
+
+  # Mixins
+  mixins-before-declarations: 2
+
+  # Line Spacing
+  empty-line-between-blocks: 2
+  one-declaration-per-line: 2
+  single-line-per-selector: 1
+
+  # Disallows
+  no-attribute-selectors: 0
+  no-color-hex: 0
+  no-color-keywords: 2
+  no-color-literals: 0
+  no-combinators: 1
+  no-css-comments: 0
+  no-debug: 2
+  no-disallowed-properties: 0
+  no-duplicate-properties: 2
+  no-empty-rulesets: 2
+  no-extends: 0
+  no-ids: 1
+  no-important: 1
+  no-invalid-hex: 2
+  no-mergeable-selectors: 2
+  no-misspelled-properties: 2
+  no-qualifying-elements: 1
+  no-trailing-whitespace: 0
+  no-trailing-zero: 2
+  no-transition-all: 1
+  no-universal-selectors: 0
+  no-url-domains: 1
+  no-url-protocols: 0
+  no-vendor-prefixes: 0
+  no-warn: 2
+  property-units: 0
+
+  # Nesting
+  declarations-before-nesting: 2
+  force-attribute-nesting: 2
+  force-element-nesting: 1
+  force-pseudo-nesting: 2
+
+  # Name Formats
+  class-name-format:
+    - 2
+    -
+      allow-leading-underscore: false
+      convention: 'strictbem'
+  function-name-format: 1
+  id-name-format:
+    - 2
+    -
+      allow-leading-underscore: false
+      convention: 'hyphenatedlowercase'
+  mixin-name-format:
+    - 2
+    -
+      allow-leading-underscore: false
+      convention: 'hyphenatedlowercase'
+  placeholder-name-format:
+    - 2
+    -
+      allow-leading-underscore: false
+      convention: 'hyphenatedlowercase'
+  variable-name-format:
+    - 2
+    -
+      allow-leading-underscore: false
+      convention: 'hyphenatedlowercase'
+
+  # Style Guide
+  attribute-quotes: 1
+  bem-depth: 1
+  border-zero:
+    - 1
+    -
+      convention: 'none'
+  brace-style: 2
+  clean-import-paths: 2
+  empty-args:
+    - 2
+    -
+      include: false
+  hex-length: 0
+  hex-notation: 0
+  indentation:
+    - 1
+    -
+      size: 'tab'
+  leading-zero:
+    - 2
+    -
+      include: false
+  max-file-line-count:
+    - 1
+    -
+      length: 300
+  max-line-length: 0
+  nesting-depth: 0
+  property-sort-order:
+    - 1
+    -
+      order: 'concentric'
+  pseudo-element: 0
+  quotes: 2
+  shorthand-values: 2
+  url-quotes: 1
+  variable-for-property: 1
+  zero-unit: 2
+
+  # Inner Spacing
+  space-after-bang: 2
+  space-after-comma: 2
+  space-after-colon: 2
+  space-around-operator: 2
+  space-before-bang: 2
+  space-before-brace: 2
+  space-before-colon: 2
+  space-between-parens: 2
+
+  # Final Items
+  final-newline: 0
+  trailing-semicolon: 2

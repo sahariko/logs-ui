@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Logs GUI</title>
+
+	<link rel="stylesheet" href="dist/style.css">
+	<script src="node_modules/socket.io-client/dist/socket.io.js"></script>
+</head>
+
+<body>
+	<header class="grid-pc-6">
+		<div class="container">
+			<h1>Logs GUI</h1>
+			<h3 id="appName"></h3>
+			<select name="logs" class="logs-select">
+				<option value=""/>
+			</select>
+		</div>
+	</header>
+	<main class="grid-pc-6">
+		<div class="container">
+			<div class="log-content" class="grid-pc-6"/>
+		</div>
+	</main>
+	<script src="dist/bundle.js"></script>
+</body>
+
+</html>
