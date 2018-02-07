@@ -3,6 +3,8 @@ A simple and clean log files web viewer.
 
 The logs list and the logs content are updated live, using sockets.
 
+![Example](./example.png "Example")
+
 ## Installation
 
 ```sh
